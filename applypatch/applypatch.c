@@ -101,8 +101,8 @@ int LoadFileContents(const char* filename, FileContents* file,
         }
     }
 
-    SHA(file->data, file->size, file->sha1);
-    return 0;
+    SHA_hash(file->data, file->size, file->sha1);
+return 0;
 }
 
 static size_t* size_array;
