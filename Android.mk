@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 commands_recovery_local_path := $(LOCAL_PATH)
-# LOCAL_CPP_EXTENSION := .c
+#  LOCAL_CPP_EXTENSION := .c
 
 LOCAL_SRC_FILES := \
     recovery.c \
